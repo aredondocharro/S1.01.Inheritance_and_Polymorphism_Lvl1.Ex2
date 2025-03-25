@@ -1,19 +1,12 @@
-# 🎻 Musical Instruments System
+# 🚗 Car Class Demonstration
 
 ## 📄 Description - Exercise Statement
 
-In a music group there are different types of musical instruments. There are wind, string, and percussion instruments.
+Create a class "Car" with the attributes: make, model, and horsepower. The make must be final static, the model static, and the horsepower final. Demonstrate the difference between the three. Are there any that can be initialized in the class constructor?
 
-All instruments have as attributes their name and price. Additionally, they have a method called play(). This is abstract in the Instrument class and therefore must be implemented in the child classes. When playing:
-- A wind instrument should display: "A wind instrument is playing"
-- A string instrument: "A string instrument is playing"
-- A percussion instrument: "A percussion instrument is playing"
+Add two methods to the class "Car". A static method called brake() and a non-static method called accelerate(). The accelerate method should output to the console: “The vehicle is accelerating” and the brake() method should output: “The vehicle is braking”.
 
-The class loading process only occurs once. Demonstrate that loading can be triggered either by:
-1. Creating the first instance of the class
-2. Accessing a static member of the class
-
-Research Java's initialization blocks and static blocks.
+Demonstrate how to invoke the static and non-static methods from the main() of the main class.
 
 ## 💻 Technologies Used
 
